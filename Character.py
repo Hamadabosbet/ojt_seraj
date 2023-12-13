@@ -42,7 +42,7 @@ class Character():
 
         Parameters:
         - location_name: str
-            The name of the location to explore.
+            The name of the location .
 
         Returns:
         - str:

@@ -26,7 +26,7 @@ class Quest():
         self.name = name
         self.steps = steps
         self.completed = False
-        self.score=2
+        self.score = 2
 
     def complete_step(self):
         """
