@@ -8,7 +8,7 @@ def main():
     age = int(input('Please enter a persons age.\n'))
     person=Person(name,age)
 
-    person.printAge()
+    print(person.getAge())
 
 if __name__=="__main__":
     main()
