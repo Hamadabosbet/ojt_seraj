@@ -11,11 +11,11 @@ class Person:
   def getAge(self):
 
     if self.age <= 1:
-      age="The person is an infant."
+      age = "The person is an infant."
 
     # if a person is older than 1 but younger than 13
     elif self.age > 1 and self.age < 13:
-      age="The person is a child."
+      age = "The person is a child."
 
 
     # if a person is at least 13, but less than 20
