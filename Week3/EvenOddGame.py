@@ -6,9 +6,6 @@ def print_status(player1,random,i):
 
 #phase 1:
 def play_game1(player1,player2):
-    point = 0
-    player1 = [player1, point]
-    player2 = [player2, point]
     i = 0
     while (player1[1] != 3 and player2[1] != 3):
         i += 1
@@ -67,7 +64,7 @@ def play_tournament(players,bestof):
         play_round(player1,player2)
         player1, player2 = random.sample(players, 2)
         win_player=max(player1,player2)
-    print(win_player[0],"wins")
+    print(win_player[0],"wins","the tournament")
     play_with_boss(win_player, boss)
 
 def input_user():
@@ -80,6 +77,10 @@ def input_user():
         players.append(player)
         i += 1
     return players
+
+
+
+
 
 
 players=input_user()
